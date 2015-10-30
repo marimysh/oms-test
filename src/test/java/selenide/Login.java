@@ -2,6 +2,7 @@ package selenide;
 
 import SOAP.SoapAction;
 import com.codeborne.selenide.SelenideElement;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
@@ -10,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class Login {
 
-   // @BeforeClass
+    @BeforeClass
     public static void Initial() {
         open("http://rt-oss-mgmt-1.ds.local:8380/oms-gui/index.html");
         $(By.name("j_username")).val("admin");
@@ -49,17 +50,4 @@ public class Login {
         }
     }
 
-    @Test
-    public void iptv_pr() throws Exception {
-        //System.out.println("Test0");
-        SoapAction.request("LYRA", "iptv_access");
-        //System.out.println("Test");
-    }
-
-    @Test
-    public void voip_pr() throws Exception {
-       // System.out.println("Test0");
-        SoapAction.request("LYRA", "voip_access");
-        //System.out.println("Test");
-    }
 }
