@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lyr="http://www.deltasolutions.ru/om/rt/LyraOmsService/">
+ <soapenv:Header/>
+ <soapenv:Body>
+ <lyr:CancelOrderRequest>
+ <OrderId>4214</OrderId>
+ <ComponentId>79011010</ComponentId>
+ <ReasonId>test</ReasonId>
+ </lyr:CancelOrderRequest>
+ </soapenv:Body>
+</soapenv:Envelope>

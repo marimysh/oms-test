@@ -1,0 +1,112 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:wfm="http://wfm.liragate.argustelecom.ru/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <wfm:finishVisit>
+            <liraOrderId>5</liraOrderId>
+            <servicesInstallationResult>
+                <service>
+                    <rnabn>658</rnabn>
+                    <serviceTypeName>2134231323</serviceTypeName>
+                    <nz>11</nz>
+                    <isInstalled>true</isInstalled>
+                    <failReasonId>0</failReasonId>
+                    <!--Optional:-->
+                    <failReasonComment/>
+                </service>
+            </servicesInstallationResult>
+            <worker>
+                <workerId>45</workerId>
+                <name>Alex</name>
+                <position/>
+                <workerPhoneNumber>9035535646</workerPhoneNumber>
+            </worker>
+            <closeWorker>
+                <workerId>45</workerId>
+                <name>Alex</name>
+                <position/>
+                <workerPhoneNumber>9035535646</workerPhoneNumber>
+            </closeWorker>
+            <finishDate/>
+
+            <resourceMovementNotifications>
+                <notification>
+                
+                    <resourceInfo>
+                    
+                        <resource id="217257359">
+                            <objectName>HG-532E: H0102020112031120</objectName>
+                            
+                            <serialNumber>H0102020112031120</serialNumber>
+                            
+                            <type id="217257359">
+                                <objectName>Huawei HG-532E</objectName>
+                                <categoryId>217189817</categoryId>
+                                <name>HG-532E</name>
+                                <vendor id="5">
+                                    <objectName>Huawei</objectName>
+                                    <description>Huawei Technologies</description>
+                                </vendor>
+                                <enumerated>true</enumerated>
+                            </type>
+                            
+                            <category id="217189817">
+                                <objectName>ENGLISH</objectName>
+                                <parentCategoryId>217189815</parentCategoryId>
+                            </category>
+                        </resource>
+                        
+                        <macAddress>8F:6B:5C:07:39:F3</macAddress>
+                        
+                        <status>ENGLISH</status>
+                        
+                        <warranty>18 ENGLISH</warranty>
+                        
+                        <used>false</used>
+                        
+                        <requiredAction id="1234567">
+                            <objectName>ENGLISH</objectName>
+                            <description>ENGLISH</description>
+                        </requiredAction>
+                        
+                        <transferTerms id="1234567">
+                            <objectName>ENGLISH</objectName>
+                            <rent>false</rent>
+                            <fullPricePurchase>true</fullPricePurchase>
+                            <description>ENGLISH</description>
+                        </transferTerms>
+                        
+                        <transferReason id="1234567">
+                            <objectName>ENGLISH</objectName>
+                            <description>ENGLISH</description>
+                            <transferTypeId>1234</transferTypeId>
+                        </transferReason>
+                        
+                        <transferPrice>2850.0</transferPrice>
+                        
+                        <storage id="1234567">
+                            <objectName>ENGLISH #24</objectName>
+                            <branchId>1212</branchId>
+                            <active>true</active>
+                            <scope id="2">
+                                <objectName>ENGLISH</objectName>
+                                <description>ENGLISH</description>
+                            </scope>
+                        </storage>
+
+                        <client id="22386693">
+                            <isOrganization>true</isOrganization>
+                            <name>ENGLISH</name>
+                        </client>
+
+                        <tl>01234567890</tl>
+                    </resourceInfo>
+
+                    <installed>1</installed>	
+                  
+                </notification>
+            </resourceMovementNotifications>
+
+        </wfm:finishVisit>
+    </soapenv:Body>
+</soapenv:Envelope>

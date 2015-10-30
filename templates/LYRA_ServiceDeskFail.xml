@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lyr="http://www.deltasolutions.ru/om/rt/LyraOmsService/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <lyr:LyraTaskStatusNotificationRequest>
+         <ComponentId>79011010</ComponentId>
+         <LyraTaskId>339</LyraTaskId>
+         <ResultCode>0</ResultCode>
+         <ResultText></ResultText>
+         <Parameters>
+            <Parameter>
+               <Name>orderId</Name>
+               <Value>1182</Value>
+            </Parameter>
+            <Parameter>
+               <Name>task_name</Name>
+               <Value>HPSA_CommitOrder</Value>
+            </Parameter>
+            <Parameter>
+               <Name>systemId</Name>
+               <Value>HPSA</Value>
+            </Parameter>
+         </Parameters>
+      </lyr:LyraTaskStatusNotificationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

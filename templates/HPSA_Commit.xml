@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rt.activator.deltasolutions.ru/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:notifyOrderState>
+         <orderState>
+            <requestId>56</requestId>
+            <operation>Commit</operation>
+            <orderId>152</orderId>
+            <serviceState>
+               <instanceId>11</instanceId>
+               <specId>pstn_access</specId>
+               <action>PR</action>
+               <statusCode>0</statusCode>
+               <statusText></statusText>
+			   <errorCode>0</errorCode>
+			   <errorText></errorText>
+            </serviceState>
+            <resultCode>0</resultCode>
+            <resultText></resultText>
+         </orderState>
+      </ws:notifyOrderState>
+   </soapenv:Body>
+</soapenv:Envelope>

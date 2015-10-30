@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lyr="http://www.deltasolutions.ru/om/rt/LyraOmsService/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <lyr:LyraTaskStatusNotificationRequest>
+         <ComponentId>11</ComponentId>
+         <LyraTaskId>225</LyraTaskId>
+         <ResultCode>-1</ResultCode>
+         <ResultText></ResultText>
+         <Parameters>
+            <!--Zero or more repetitions:-->
+            <Parameter>
+               <Name>orderId</Name>
+               <Value>152</Value>
+            </Parameter>
+         </Parameters>
+      </lyr:LyraTaskStatusNotificationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
